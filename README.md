@@ -1,12 +1,25 @@
-# React + Vite
+# 💬 RealTime Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **real-time chat messaging web app** built with **React**, powered by **Firebase** for authentication & database, **Cloudinary** for media storage, and **Zustand** for state management. Designed with clean **CSS styling** and deployed on a **VPS (Nginx)** for production.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔥 **Real-time messaging** (Firebase Firestore/Realtime DB)
+- 👤 **User authentication** (Firebase Auth – Email login)
+- 🖼️ **Media uploads** (images/videos via Cloudinary)
+- ⚡ **State management** with Zustand
+- 🎨 Responsive & modern **CSS UI**
+- 🌍 **Deployed on VPS** 
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend:** React, Zustand, CSS
+- **Backend/Database:** Firebase (Auth + Firestore/Realtime DB)
+- **Media Storage:** Cloudinary
+- **Hosting/Deployment:** VPS 
+- **Build Tool:** Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
